@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import * as marked from 'marked';
+// import * as marked from 'marked';
 import './App.css';
 
 const App = () => {
-  const [preview, setPreview] = useState("")
+  // const [preview, setPreview] = useState("")
   const [markdown, setMarkdown] = useState("");
 
   const handleChange = (e) => {
@@ -11,8 +11,8 @@ const App = () => {
   };
 
   useEffect(() => {
-    const html = marked.parse(markdown, { breaks: true });
-    setPreview(html);
+    // const html = marked.parse(markdown, { breaks: true });
+    // setPreview(html);
   }, [markdown]);
   const ReactMarkdown = require('react-markdown')
   return (
