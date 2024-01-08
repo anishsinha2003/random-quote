@@ -32,3 +32,11 @@
 }
 
 
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
