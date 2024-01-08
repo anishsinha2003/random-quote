@@ -1,35 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 
 function App() {
-  const quotes = [
-    {
-      quote: "quote 1",
-      author1: "author 1"
-    },
-    {
-      quote: "quote 2",
-      author1: "author 2"
-    },
-    {
-      quote: "quote 3",
-      author1: "author 3"
-    },
-    {
-      quote: "quote 4",
-      author1: "author 4"
-    },
-    {
-      quote: "quote 5",
-      author1: "author 5"
-    },
-    {
-      quote: "quote 6",
-      author1: "author 6"
-    },
-  ]
-  const [quoteIdx, setQuoteIdx] = React.useState("3")
+  // const quotes = [
+  //   {
+  //     quote: "quote 1",
+  //     author1: "author 1"
+  //   },
+  //   {
+  //     quote: "quote 2",
+  //     author1: "author 2"
+  //   },
+  //   {
+  //     quote: "quote 3",
+  //     author1: "author 3"
+  //   },
+  //   {
+  //     quote: "quote 4",
+  //     author1: "author 4"
+  //   },
+  //   {
+  //     quote: "quote 5",
+  //     author1: "author 5"
+  //   },
+  //   {
+  //     quote: "quote 6",
+  //     author1: "author 6"
+  //   },
+  // ]
+  // const [quoteIdx, setQuoteIdx] = React.useState("3")
   return (
     <div className="App">
       <div id="quote-box">
